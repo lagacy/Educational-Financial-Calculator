@@ -1,0 +1,144 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\DeuzSpark\\Projets\\Educational-Financial-Calculator\\EFinancialCalculator.AvaloniaUI\\EFinancialCalculator.Desktop.csproj": {}
+  },
+  "projects": {
+    "D:\\DeuzSpark\\Projets\\Educational-Financial-Calculator\\EFinancialCalculator.AvaloniaUI\\EFinancialCalculator.Desktop.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\DeuzSpark\\Projets\\Educational-Financial-Calculator\\EFinancialCalculator.AvaloniaUI\\EFinancialCalculator.Desktop.csproj",
+        "projectName": "EFinancialCalculator.Desktop",
+        "projectPath": "D:\\DeuzSpark\\Projets\\Educational-Financial-Calculator\\EFinancialCalculator.AvaloniaUI\\EFinancialCalculator.Desktop.csproj",
+        "packagesPath": "C:\\Users\\Lagac\\.nuget\\packages\\",
+        "outputPath": "D:\\DeuzSpark\\Projets\\Educational-Financial-Calculator\\EFinancialCalculator.AvaloniaUI\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Lagac\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.pkg.github.com/Deuzspark-Technologies-inc/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\DeuzSpark\\Projets\\Educational-Financial-Calculator\\EFinancialCalculator.Core\\EFinancialCalculator.Core.csproj": {
+                "projectPath": "D:\\DeuzSpark\\Projets\\Educational-Financial-Calculator\\EFinancialCalculator.Core\\EFinancialCalculator.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Avalonia": {
+              "target": "Package",
+              "version": "[0.9.12, )"
+            },
+            "Avalonia.Desktop": {
+              "target": "Package",
+              "version": "[0.9.12, )"
+            },
+            "Avalonia.ReactiveUI": {
+              "target": "Package",
+              "version": "[0.9.12, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\DeuzSpark\\Projets\\Educational-Financial-Calculator\\EFinancialCalculator.Core\\EFinancialCalculator.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\DeuzSpark\\Projets\\Educational-Financial-Calculator\\EFinancialCalculator.Core\\EFinancialCalculator.Core.csproj",
+        "projectName": "EFinancialCalculator.Core",
+        "projectPath": "D:\\DeuzSpark\\Projets\\Educational-Financial-Calculator\\EFinancialCalculator.Core\\EFinancialCalculator.Core.csproj",
+        "packagesPath": "C:\\Users\\Lagac\\.nuget\\packages\\",
+        "outputPath": "D:\\DeuzSpark\\Projets\\Educational-Financial-Calculator\\EFinancialCalculator.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Lagac\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.pkg.github.com/Deuzspark-Technologies-inc/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
